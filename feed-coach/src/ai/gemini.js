@@ -1,7 +1,7 @@
 import { AIProvider } from './provider.js';
 import { safeParseJson, delay } from '../utils.js';
 
-const DEFAULT_MODEL = 'gemini-2.5-flash';
+const DEFAULT_MODEL = 'gemini-flash-latest';
 const DEFAULT_TIMEOUT_MS = 10000;
 const MAX_RETRIES = 3;
 const BASE_RETRY_DELAY_MS = 1000;

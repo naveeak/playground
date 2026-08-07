@@ -10,6 +10,7 @@
 // @grant        GM_deleteValue
 // @grant        GM_registerMenuCommand
 // @run-at       document-idle
+// @connect generativelanguage.googleapis.com
 // ==/UserScript==
 (() => {
   // src/logger.js
@@ -457,7 +458,7 @@
   };
 
   // src/ai/gemini.js
-  var DEFAULT_MODEL = "gemini-2.5-flash";
+  var DEFAULT_MODEL = "gemini-flash-latest";
   var DEFAULT_TIMEOUT_MS = 1e4;
   var MAX_RETRIES = 3;
   var BASE_RETRY_DELAY_MS = 1e3;
