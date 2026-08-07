@@ -1,0 +1,15 @@
+{
+  "name": "feed-coach",
+  "version": "0.1.0",
+  "description": "AI-powered YouTube feed assistant (Tampermonkey userscript)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch",
+    "test": "node test/smoke.test.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
